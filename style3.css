@@ -1,0 +1,27 @@
+body{
+    height: 2000px;
+    margin: 0;
+    background-color: rgb(186, 183, 188);
+}
+h1[class*="sticky-header"]{
+height: 50px;
+background-color: rgb(45, 16, 63);
+color: white;
+margin: 0;
+
+}
+
+.sticky-header-1{
+    position: sticky;
+    top:0px;
+}
+
+.sticky-header-2{
+    position: sticky;
+    top: 50px;
+}
+
+.sticky-header-3{
+    position: sticky;
+    top: 100px;
+}
